@@ -1,0 +1,34 @@
+#!/bin/sh
+#
+# bootstrap
+#
+
+set -e
+
+#
+# Check for Bundler
+#
+if test ! $(which bundle)
+then
+  echo "  x You need to install Bundler:"
+  echo "    gem install bundler"
+  exit
+else
+  echo "  + Bundler found."
+fi
+
+
+#
+# Install gems
+#
+echo "  + Bootstrapping your Rubies."
+bundle install --binstubs --local --path vendor/gems --quiet
+
+
+#
+# Startup instructions
+#
+echo ""
+
+echo "  Good work. We're ready to rock."
+echo "  Run 'rake start' to start playing."
