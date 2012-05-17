@@ -3,6 +3,7 @@ gem 'rack',          '~>1.3.0'
 gem 'rake',          '~>0.9.2.1'
 gem 'sinatra'
 gem 'sprockets'
+gem 'sass',          '~>3.1'
 gem 'coffee-script'
 gem 'foreman'
 gem 'thin'
@@ -13,5 +14,5 @@ group :test do
 end
 
 group :development do
-  gem 'shotgun'a
+  gem 'shotgun'
 end

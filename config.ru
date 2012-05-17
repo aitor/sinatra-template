@@ -10,4 +10,4 @@ javascripts.append_path 'app/frontend/scripts'
 map("/css")      { run stylesheets }
 map("/js")       { run javascripts }
 
-map('/')         { run Play::App }
+map('/')         { run Placeholder::App }

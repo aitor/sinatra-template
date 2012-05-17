@@ -8,12 +8,8 @@ require 'coffee-script'
 require 'sinatra/base'
 require 'sass'
 
-require 'play'
+require 'placeholder'
 
 #require 'models/my_model'
 
 require 'app'
-require 'views/layout'
-
-REDIS_URL = 'redis://127.0.0.1'
-$redis = Redis.connect(:url => REDIS_URL, :thread_safe => true)
