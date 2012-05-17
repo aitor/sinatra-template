@@ -1,24 +1,21 @@
-module Placeholder
+<h1>Gilbert K. Chesterton, The Great</h1>
+<p>
+  All conservatism is based upon the idea that if you leave
+  things alone you leave them as they are. But you do not.
+  If you leave a thing alone you leave it to a torrent of change.
+</p>
 
-  # Public: The config located in config/play.yml.
-  #
-  # Returns an OpenStruct so you can chain methods off of `Play.config`.
-  def self.config
-    OpenStruct.new \
-      :some_setting => yaml['some_setting']
-  end
+<p>
+  Compromise used to mean that half a loaf was better than no bread.
+  Among modern statesmen it really seems to mean that half a loaf;
+  is better than a whole loaf.
+</p>
 
-private
-
-  # Load the config YAML.
-  #
-  # Returns a memoized Hash.
-  def self.yaml
-    if File.exist?('config/placeholder.yml')
-      @yaml ||= YAML.load_file('config/placeholder.yml')
-    else
-      {}
-    end
-  end
-
-end
+<p>
+  Democracy means government by the uneducated,
+  while aristocracy means government by the badly educated.
+</p>
+<p>
+  Journalism largely consists of saying "Lord Jones is Dead"
+  to people who never knew that Lord Jones was alive.
+</p>
