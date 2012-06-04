@@ -1,6 +1,6 @@
 module Placeholder
 
-  # Public: The config located in config/play.yml.
+  # Public: The config located in config/placeholder.yml.
   #
   # Returns an OpenStruct so you can chain methods off of `Play.config`.
   def self.config

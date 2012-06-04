@@ -22,7 +22,7 @@ fi
 # Install gems
 #
 echo "  + Bootstrapping your Rubies."
-bundle install --binstubs --path vendor/gems --quiet
+bundle install
 
 
 #
